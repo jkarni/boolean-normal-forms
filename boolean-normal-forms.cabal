@@ -17,6 +17,7 @@ extra-doc-files:      doc-formulae/*.svg
 library
   hs-source-dirs:      src
   exposed-modules:
+    Algebra.Heyting,
     Data.Algebra.Boolean.NormalForm,
     Data.Algebra.Boolean.FreeBoolean,
     Data.Algebra.Boolean.NNF,
