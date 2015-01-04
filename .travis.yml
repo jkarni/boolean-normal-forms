@@ -9,3 +9,7 @@ before_install:
 script:
   - cabal test --show-details=always
   - packdeps boolean-normal-forms.cabal
+
+branches:
+  only:
+    - master
