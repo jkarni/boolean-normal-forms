@@ -18,6 +18,7 @@ library
   hs-source-dirs:      src
   exposed-modules:
     Algebra.Boolean,
+    Algebra.Boolean.NormalForms,
     Algebra.Heyting,
     Algebra.Negable,
     Algebra.Lattice.Extras,
